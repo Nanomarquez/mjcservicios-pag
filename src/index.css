@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.servicios .container .card:hover .imgBox
+{
+    height: 150px;
+    width: 150px;
+    color: black;
+    cursor: pointer;
+    left: 150px;
+    top: calc(-85px)
+}
+
+.servicios .container .card:hover .imgBox h1{
+    transform: scale(0.5);
+}
+
+.servicios .container .card:hover .imgBox img
+{
+    max-width: 75px;
+}
+
+h1{
+    -webkit-text-stroke: .5px rgb(237, 189, 29);
+}
+
+h3{
+    -webkit-text-stroke: .5px rgb(237, 189, 29);
+}
+
+#span {
+    font-weight: 900;
+    -webkit-text-stroke: .5px rgb(237, 189, 29);
+}
+
+#spandos{
+    font-weight: 900;
+    -webkit-text-stroke: 1px rgb(0,0,0);
+}
