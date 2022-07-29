@@ -9,7 +9,6 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-
 }
 
 .servicios .container .card:hover .imgBox
@@ -47,4 +46,9 @@ h3{
 #spandos{
     font-weight: 900;
     -webkit-text-stroke: 1px rgb(0,0,0);
+}
+
+#ctto {
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    color:black
 }

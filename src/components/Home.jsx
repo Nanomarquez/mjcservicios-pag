@@ -1,10 +1,11 @@
 import img from '../img/logo.jpg'
 import industria from '../img/industria.jpg'
 import fb from '../img/facebook.png'
-import ins from '../img/instagram.png'
+import gmail from '../img/gmail.png'
 import wsp from '../img/whatsapp.png'
 import Footer from './Footer'
 import {motion} from 'framer-motion'
+import {Link} from 'react-router-dom'
 
 const navigation = [
   { name: 'Home', href: '#home' },
@@ -62,23 +63,33 @@ export default function Home() {
               Brindamos servicios integrales y asesoria en materia de higiene y seguridad. <br />Nuestro compromiso es brindar un servicio enfocado en la deteccion temprana de sus necesidades, conociendo las variables de un mercado que propone cambios constantes nos comprometemos a adaptarnos para lograr una buena relación costo-beneficio. <br />Creemos en el desarrollo de vinculos sólidos entre profesional y cliente que conduzcan a la mejora continúa de su organización.
               </p>
                   <div className='flex flex-col gap-5 h-44 w-full text-gray-500 drop-shadow-md items-center justify-center'>
-                      <div className='flex flex-row gap-5'>
-                        <img src={wsp} alt="wsp" className='shadow-md cursor-pointer hover:scale-110 duration-200'/>
-                        <img src={ins} alt="instagram" className='shadow-md cursor-pointer hover:scale-110 duration-200'/>
-                        <img src={fb} alt="facebook" className='shadow-md cursor-pointer hover:scale-110 duration-200' />
-                      </div>
                       <div className='flex flex-col text-center font-medium'>
-                        <p className='hover:text-yellow-600 cursor-pointer duration-150'>Teléfono:(011)-5212345</p>
-                        <p className='hover:text-yellow-600 cursor-pointer duration-150'>Mail: javi@gmail.com</p>
+                      <a href="https://wa.me/message/KD6W4J5C7JCLN1" target="_BLANK">
+                        <p id='ctto' className='cursor-pointer font-semibold md:text-xl sm:text-xs sm:max-w-xl text-base duration-150'>Teléfono: +54 9 11 3910-5128</p>
+                        </a>
+                        <Link to={'/contacto'}>
+                        <p id='ctto' className='cursor-pointer font-semibold md:text-xl sm:text-xs sm:max-w-xl text-base  duration-150'>Correo: hys.mjc@gmail.com</p>
+                        </Link>
+                      </div>
+                      <div className='flex flex-row gap-5'>
+                        <a href="https://wa.me/message/KD6W4J5C7JCLN1" target="_BLANK">
+                        <img src={wsp} alt="wsp" className='shadow-md cursor-pointer hover:scale-110 duration-200'/>
+                        </a>
+                        <Link to={'/contacto'}>
+                        <img src={gmail} alt="instagram" className='drop-shadow-md cursor-pointer hover:scale-110 duration-200'/>
+                        </Link>
+                        <a href="https://www.facebook.com/mjcsafety/" target='_BLANK'>
+                        <img src={fb} alt="facebook" className='shadow-md cursor-pointer hover:scale-110 duration-200' />
+                        </a>
                       </div>
                   </div>
             </div>
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 mt-10 lg:my-0">
         <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+          className="h-56 w-full object-cover lg:w-full lg:h-full"
           src={industria}
           alt=""
         />

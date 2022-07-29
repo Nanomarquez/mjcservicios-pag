@@ -30,7 +30,7 @@ function Servicios() {
     animate='visible'
     exit="exit"
     variants={containerVariants} >
-    <img className='h-[260%] lg:h-screen w-screen absolute z-[-1]' src={fondo} alt="" />
+    <img className='h-[150%] lg:h-screen w-screen absolute z-[-1]' src={fondo} alt="" />
         <div className='items-center justify-center text-center pt-16'>
         <h1 className='text-5xl font-extrabold tracking-tight text-gray-300 drop-shadow-lg'>Servicios</h1>
         <h3 className='text-gray-300 text-2xl drop-shadow-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, tempora possimus necessitatibus at perferendis voluptate animi eum adipisci laboriosam eaque eligendi fuga earum, repellat quibusdam dicta illo ad quod illum!</h3>
