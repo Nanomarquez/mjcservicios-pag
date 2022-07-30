@@ -62,13 +62,13 @@ export default function Home() {
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:max-w-xl drop-shadow-md shadow-black text-center sm:text-xs  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Brindamos servicios integrales y asesoria en materia de higiene y seguridad. <br />Nuestro compromiso es brindar un servicio enfocado en la deteccion temprana de sus necesidades, conociendo las variables de un mercado que propone cambios constantes nos comprometemos a adaptarnos para lograr una buena relación costo-beneficio. <br />Creemos en el desarrollo de vinculos sólidos entre profesional y cliente que conduzcan a la mejora continúa de su organización.
               </p>
-                  <div className='flex flex-col gap-5 h-44 w-full text-gray-500 drop-shadow-md items-center justify-center'>
+                  <div className='flex flex-col gap-4 h-44 w-full text-gray-500 drop-shadow-md items-center justify-center'>
                       <div className='flex flex-col text-center font-medium'>
                       <a href="https://wa.me/message/KD6W4J5C7JCLN1" target="_BLANK">
-                        <p id='ctto' className='cursor-pointer font-semibold md:text-xl sm:text-xs sm:max-w-xl text-base duration-150'>Teléfono: +54 9 11 3910-5128</p>
+                        <p id='ctto' className='cursor-pointer font-bold md:text-xl sm:text-xs sm:max-w-xl text-base duration-150'>Teléfono: +54 9 11 3910-5128</p>
                         </a>
                         <Link to={'/contacto'}>
-                        <p id='ctto' className='cursor-pointer font-semibold md:text-xl sm:text-xs sm:max-w-xl text-base  duration-150'>Correo: hys.mjc@gmail.com</p>
+                        <p id='ctto' className='cursor-pointer font-bold md:text-xl sm:text-xs sm:max-w-xl text-base  duration-150'>Correo: hys.mjc@gmail.com</p>
                         </Link>
                       </div>
                       <div className='flex flex-row gap-5'>

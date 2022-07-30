@@ -30,7 +30,7 @@ function Footer() {
         </ul>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <span class="block text-sm text-gray-500 sm:text-center -translate-y-5">© 2022 Design by: <a href="https://portfolionanomarquez.netlify.app/" target='_BLANK' class="hover:font-extrabold duration-150">Federico Marquez™</a>. All Rights Reserved.
+    <span class="block text-sm text-gray-500 sm:text-center -translate-y-5">© 2022 Design by: <a id='link' href="https://portfolionanomarquez.netlify.app/" target='_BLANK' class="hover:font-extrabold duration-150">Federico Marquez™</a>. All Rights Reserved.
     </span>
 </footer>
     </>

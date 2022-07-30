@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Contacto from './components/Contacto'
 import Servicios from './components/Servicios'
 import './index.css'
+import Wsp from './components/Wsp.jsx';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div>
+      <Wsp/>
       <NavBar/>
     <AnimatePresence>
     <Routes location={location} key={location.key}>

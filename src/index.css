@@ -49,6 +49,10 @@ h3{
 }
 
 #ctto {
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.6px rgb(255, 255, 255);
     color:black
+}
+
+#link:hover {
+    -webkit-text-stroke: 0.8px rgb(0,0,0);
 }
