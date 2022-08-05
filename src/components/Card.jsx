@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../index.css';
 
 function Card(props) {
@@ -12,10 +13,12 @@ function Card(props) {
         </div>
         <div className="content absolute mx-[50px] right-0 w-[calc(100%-75px)] h-[100%] flex items-center">
           <div>
-            <h3 className='text-black mb-[5px] text-2xl drop-shadow-lg'>{props.title}</h3>
-            <p className='drop-shadow-md shadow-black text-base font-semibold leading-tight'>{props.parrafo}</p>
-            <a href='#' className='group inline-block mt-[10px] py-[8px] px-[20px] rounded-md bg-gray-500  text-white font-bold drop-shadow-md text-shadow-md shadow-black'><div className="absolute top-0 -inset-full h-full w-[70%] z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-0 hover:opacity-20 group-hover:animate-shine " />
+            <h3 className='text-black mb-[5px] ml-8 text-2xl text-center drop-shadow-lg'>{props.title}</h3>
+            <img src={props.imagen} alt="" className='rounded-lg ml-3' />
+            <Link to={props.ruta}>            
+            <a href={props.ruta} className='ml-12 group inline-block mt-[10px] py-[8px] px-[20px] rounded-md bg-gray-500  text-white font-bold drop-shadow-md text-shadow-md shadow-black'><div className="absolute top-0 -inset-full h-full w-[70%] z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-0 hover:opacity-20 group-hover:animate-shine " />
 Read More</a>
+            </Link>
           </div>
         </div>
       </div>

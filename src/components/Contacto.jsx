@@ -33,12 +33,11 @@ function Contacto() {
       </div>
       <div className='absolute text-center w-full pt-5 sm:relative'>
         <h1 className='text-start text-5xl text-gray-300 text-shadow-lg shadow-white font-extrabold ml-5 mb-5 sm:text-center'>Soluciones Integrales</h1>
-        <p className='text-center text-xl text-gray-300 text-shadow-lg shadow-white  font-bold my-5'>Todos nuestros servicios son llevados a cabo por profesionales idoneos, capacitados y matriculados</p>
       </div>
       <div className='bg-slate-500/60 backdrop-blur-sm rounded-lg w-screen sm:w-1/2 block translate-y-[250px] sm:translate-y-0 p-5 sm:mx-[25%]'>
         <div className='h-10 bg-yellow-400 hover:bg-yellow-500/80 duration-200 text-center p-1 mb-5 text-2xl rounded font-medium text-gray-600'>CONTACTO</div>
       <form
-            action="https://getform.io/f/dc82c6f2-c193-4eed-a6c9-2a29f660250e"
+            action="https://getform.io/f/e79fe528-3544-4828-a57b-6c5a5e7e01e4"
             method="POST"
             className="flex flex-col mx-10 gap-5 place-content-center"
           >

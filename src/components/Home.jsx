@@ -95,6 +95,6 @@ export default function Home() {
         />
       </div>
       <Footer/>
-    </motion.div>
+</motion.div>
   )
 }

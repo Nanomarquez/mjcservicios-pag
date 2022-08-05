@@ -7,6 +7,9 @@ import Contacto from './components/Contacto'
 import Servicios from './components/Servicios'
 import './index.css'
 import Wsp from './components/Wsp.jsx';
+import Asesoramiento from './components/pages/Asesoramiento.jsx';
+import Estudios from './components/pages/Estudios.jsx';
+import Gestion from './components/pages/Gestion.jsx';
 
 function App() {
 
@@ -14,6 +17,7 @@ function App() {
 
   return (
     <div>
+
       <Wsp/>
       <NavBar/>
     <AnimatePresence>
@@ -21,6 +25,9 @@ function App() {
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/servicios'} element={<Servicios/>} />
           <Route path={'/contacto'} element={<Contacto/>} />
+          <Route path={'/asesoramiento'} element={<Asesoramiento/>} />
+          <Route path={'/estudios'} element={<Estudios/>} />
+          <Route path={'/gestion'} element={<Gestion/>} />
       </Routes>
     </AnimatePresence>
     </div>
