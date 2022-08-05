@@ -54,6 +54,7 @@
   .hamburger-inner::before, .hamburger-inner::after {
     content: "";
     display: block;
+    margin-left: -1px;
   }
   .hamburger-inner::before {
     top: -10px;
