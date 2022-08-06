@@ -60,7 +60,7 @@ export default function Home() {
                 
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:max-w-xl drop-shadow-md shadow-black text-center sm:text-xs  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Brindamos servicios integrales y asesoria en materia de higiene y seguridad. <br />Nuestro compromiso es brindar un servicio enfocado en la deteccion temprana de sus necesidades, conociendo las variables de un mercado que propone cambios constantes nos comprometemos a adaptarnos para lograr una buena relación costo-beneficio. <br />Creemos en el desarrollo de vinculos sólidos entre profesional y cliente que conduzcan a la mejora continúa de su organización.
+              Brindamos servicios integrales y asesoria en materia de higiene y seguridad. <br />Nuestro compromiso es brindar asistencia enfocandonos en la detección temprana de sus necesidades, conociendo las variables de un mercado que propone cambios constantes nos comprometemos a adaptarnos para lograr una buena relación costo-beneficio. <br />Creemos en el desarrollo de vinculos sólidos entre profesional y cliente que conduzcan a la mejora continúa de su organización.
               </p>
                   <div className='flex flex-col gap-4 h-44 w-full text-gray-500 drop-shadow-md items-center justify-center'>
                       <div className='flex flex-col text-center font-medium'>

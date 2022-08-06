@@ -11,18 +11,18 @@ function Gestion() {
   return (
     <>
       <div className='flex flex-col sm:flex-row items-center gap-10 justify-center text-center bg-amber-500/70 w-screen h-[65%] absolute'>
-        <div className='w-[80%] sm:w-1/3 sm:border-r-2 sm:pr-10 sm:border-b-0 pb-5 border-b-2 font-bold text-lg drop-shadow-md'>
+        <div className='w-[80%] sm:w-1/3 sm:border-r-2 sm:r-10 sm:border-b-0 pb-5 border-b-2 font-bold text-start text-lg drop-shadow-md'>
           <ul>
-            <li>DDJJ RGRL SRT 463/09</li>
-            <li>DDJJ RAR SRT 37/10</li>
-            <li>DDJJ Agentes cancerigenos SRT 81/19</li>
+            <li>✔DDJJ RGRL SRT 463/09</li>
+            <li>✔DDJJ RAR SRT 37/10</li>
+            <li>✔DDJJ Agentes cancerigenos SRT 81/19</li>
           </ul>
         </div>
-        <div className='w-full sm:w-1/3 font-bold text-lg drop-shadow-md'>
+        <div className='w-[80%] sm:w-1/3 font-bold text-lg drop-shadow-md text-start'>
         <ul>
-            <li>CEPROSA</li>
-            <li>Gestion de documentacion</li>
-            <li>Implementacion de sistemas de gestion <br />*SST</li>
+            <li>✔CEPROSA</li>
+            <li>✔Gestion de documentacion</li>
+            <li>✔Implementacion de sistemas de gestion ›<span className='text-base italic underline'>SST/Medio Ambiente</span>‹</li>
           </ul>
         </div>
       </div>
