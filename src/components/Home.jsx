@@ -38,6 +38,7 @@ export default function Home() {
     variants={containerVariants} className="relative bg-white overflow-hidden" id='home'>
       <div className="max-w-7xl mx-auto bg-white">
         <div className="relative h-screen z-10 bg-white lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+          
           <svg
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
             fill="currentColor"
